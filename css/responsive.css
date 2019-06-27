@@ -1,0 +1,1099 @@
+@media screen and (min-width: 380px) {
+	.container-wrapper{
+		margin: 10px;
+	}
+
+	.main-button{
+	 	font-size: 10px;
+	 	width: 30%;
+ 	}	
+	/*Header*/
+	.nav-icon{
+	
+		display: block;
+		float: right;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+	.navigation {
+		display: none;
+	}
+
+	/* Service Responsive*/
+   .web-graphic{
+   	 width: 100%;
+   	 float: none;
+   }
+
+   .prog-photo{
+   	 width: 100%;
+   	 float: none;
+   }
+   .web-design{
+   	width: 100%;
+  	 float: none;
+   }
+
+   .graphic-design{
+   		width: 100%;
+   		float: none;
+   }
+
+   .programming{
+  	 	float: none;
+   }
+
+   .photography{
+  	 	float: none;
+   }
+
+
+   /*About div design*/
+   .about{
+   		padding-top: 0px;
+		padding-bottom: 94px;
+		background-image: linear-gradient(#ff5a55, #ff3558);
+	}
+
+
+	/*// css for design*/
+
+
+	/*css for add */
+
+.add-wrapper{
+	display: none;
+}
+	
+
+
+/*Css for design you like*/
+.design-you-like h2{
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		font-weight: lighter;
+		line-height: 0;
+		text-align: center;
+		padding-top: 6.996587%;
+		padding-bottom: 10px;
+		color: white;
+	}
+
+
+.design-you-like p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	width: 80%;
+	padding-top: 2.986348%;
+	padding-bottom: 2.986348%;
+	color: white;
+	text-align: justify;
+}
+
+
+/*Css for  team member*/
+
+.team-member{
+	width: 70%;
+	float: none;
+	display: block;
+	margin: 5px  auto 0px;
+
+	/*margin-left: 2.559726%;*/
+	
+}
+
+
+.team{
+	font-family: 'Roboto', sans-serif;			
+}
+
+.team h2{
+	font-size: 40px;
+}
+
+.team-members {
+	text-align: center;
+}
+.team-member img{
+	width: 100%;
+
+	height: auto;
+}
+.team-member p{
+	width: 90%;
+	height: auto;
+	text-align: center;
+}
+
+.title{
+	color: white;
+}
+
+
+/*Stat Div css*/
+.stats-block span{
+	display: none;
+	text-align: center;
+}
+
+.stats-block img{
+	padding-top: 20px;
+	padding-bottom: 0px;
+	cursor: pointer;
+}
+
+.stats-block a:hover{
+	cursor: pointer;
+}
+
+.stats-block{
+	width: 25%;
+	height: 100px;
+	text-align: center;	
+	float: left;
+	color: white;
+	/*border: 1px solid white;*/
+	
+}
+
+/*Client Wrapper div css*/
+.client-wrapper{
+	display: none;
+}
+
+
+/*Contact us div css*/
+
+.contact-form{
+	padding-top: 65px;
+	padding-bottom: 90px;
+	width: 90.699658%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.fl-name{
+	padding-bottom: 50px;
+}
+
+.first-name{
+	width: 100%;
+	float: none;
+	margin-bottom: 50px;
+}
+.last-name{
+	width: 100%;
+	float: none;
+}
+.message{
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+  
+
+
+  /*Address div css*/
+
+
+.address-box{
+	width: 100%;
+	height: 150px;
+	
+	
+}
+.address span {
+	display: block;
+	padding-bottom: 15px;
+	
+}
+
+
+/*Footer div css*/
+.footer-wrapper{
+	background-color: #233537;
+	height: 75px;
+
+}
+
+}
+
+@media screen and (min-width: 768px) {
+	
+	.main-button{
+	 	
+	 	font-size: 13px;
+	 	
+
+ 	}
+
+
+	/*Header*/
+	.container-wrapper{
+		margin: 10px;
+	}
+	.container-max-width{
+ 		max-width: 73.5em;				/*max-width: 1172px; 74em*/
+ 		margin: 0 auto;
+ 	}
+ 	
+ 	.header ul{
+ 		float: right;
+ 	}
+
+
+
+    ul.navigation li{
+		float: left;
+	  
+    }
+
+    ul.navigation li a{
+    	font-size: 10px;
+    }
+
+    .navigation {
+		display: block;
+	}
+    .nav-icon{
+    	display: none;
+    }
+	/* Service Responsive*/
+
+
+	/*CSS for banner*/
+	.banner h1{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 30;
+		font-size: 60px;
+		text-align: center;
+		color: white;
+		margin-bottom: 4.5221843%;
+	}
+
+	/*Services*/
+
+
+   .services-container{
+
+   }
+   .web-graphic{
+   	 width: 100%;
+   	 float: none;
+   	 margin-bottom: 40px;
+   }
+
+   .prog-photo{
+   	 width: 100%;
+   	 float: none;
+   }
+   .web-design{
+   	width: 50%;
+  	 float: left;
+   }
+
+   .graphic-design{
+   		width: 50%;
+   		float: right;
+   }
+
+   .programming{
+   		width: 50%;
+  	 	float: left;
+   }
+
+   .photography{
+   		width: 50%;
+  	 	float: right;
+   }
+  
+
+   .services-container h4{
+	  font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+	  text-align: center;
+      padding-top: 27px;
+      padding-bottom: 49px;
+	}
+
+
+	.services-container p{
+		margin: 0 auto;
+		width: 70%;
+		font-family: 'Roboto', sans-serif;
+		font-size: 12px;
+		text-align: center;
+
+	}
+
+
+ /*Browser design*/
+
+	.brower-design{
+		display: block;
+	}
+	.left-browser{
+		display: none;
+	}
+	.right-browser{
+		display: none;
+	}
+	.middle-browser{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -4px;
+	left: 0;
+	display: block;
+	text-align: center;
+	/*height: 382px;*/
+}
+
+
+
+/*CSS for fully responsive div*/
+
+	.fully-responsive{
+		padding-bottom: 67px;
+		padding-top: 67px;
+	}
+	.mobile-description{
+		padding-top: 11.945392%;
+		width: 100%;
+		float: none;
+	}
+
+	.mobile-description h2{
+		font-family: 'Roboto', sans-serif;
+		font-size: 30px;
+		font-weight: lighter;
+		text-align: center;
+	}
+	.mobile-description p{
+		width: 80%;
+		margin:0 auto;
+		font-family: 'Roboto', sans-serif;
+		font-size: 12px;
+		font-weight: lighter;
+		padding-top: 1.0102389%;
+		padding-bottom: 5.204781%;
+		text-align: justify;
+	}
+
+
+	.mobile-images{
+		width: 100%;
+		float: none;
+		/*position: relative;*/
+
+	}
+
+	
+	.left-mobile{
+		position: relative;
+		left: 30%;
+		z-index: 5;
+	}
+	.right-mobile{
+		position: relative;
+		left: 25%;
+		bottom: 40px;
+		z-index: 0;	
+	}
+	.order-me-now-btn{
+		
+	 	font-family: font-family: 'Roboto', sans-serif;
+	 	font-size: 13px;
+
+	 	width: 43.859649%;
+		padding-top: 25px;
+	 	padding-bottom: 25px;
+	 	float: none;
+	 	color: white;
+	 	text-transform: uppercase;
+	 	display: block;
+	 	margin:0 auto;
+	 	border-radius: 7px;
+	 	background:url(../img/main-button.png) no-repeat;
+	 	background-size: 100%;
+	 	border: none;
+	}
+
+
+
+/*CSS For Design you like*/
+
+		
+	.design-you-like h2{
+		font-size: 40px;
+	}
+
+	.design-you-like p{
+		width: 65.699658%;
+		padding-top: 2.986348%;
+		padding-bottom: 2.986348%;
+		color: white;
+	}
+
+
+    .design-you-like ul{
+	/*width: 65.699658%;*/
+
+	    padding-top: 0px;
+	
+
+	}
+
+
+	.design-box{
+	    width: 48%;
+	    height: 373px;
+	    float: left;
+	    margin-bottom: 30px;
+	    margin-right: 4%;
+	    /*margin-right: 2.5597269%;*/
+
+	}
+
+   .design-box img{
+   		width: 100%;
+   		height: 240px;
+   }
+
+   .design-box h3{
+   	padding-top: 20px;
+   }
+
+   .design-box p{
+	   	font-family: 'Roboto', sans-serif;
+		font-size: 13px;
+		text-align: center;
+		width: 57.837837%;
+		margin:0 auto;
+		color: black;
+
+   }
+
+   .no-margin768{
+   	margin-right: 0px;
+   }
+   
+   .margin768{
+   	 margin-right: 4%; 
+   }
+
+   .arrow-down{
+	   	display: block;
+	   	margin: 0 auto;
+	   	padding-top: 51px;
+	   	padding-bottom: 70px;
+
+   }
+
+  
+/*Team div css*/
+
+
+
+.team-member{
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+	margin-left: 0;
+	margin-bottom: 10px;
+	/*border: 1px solid black;*/
+}
+
+
+/*About us div*/
+
+.about{
+	padding-top: 96px;
+	padding-bottom: 94px;
+	background-image: none;
+}
+
+
+
+.about-image{
+	width: 100%;
+	/*height: 25.619128%;*/
+	float: none;
+
+}
+.about-image img{
+	width: 100%;
+	height: 300px;
+	/*height: 25.619128%;*/
+	float: left;
+
+}
+.about-description{
+	width:100%;
+	padding-top: 35px;
+	float: none;
+}
+
+.about-description h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.about-description p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+	padding: 0px 30px 30px 15px;
+	color: #929ba0;
+	text-align: justify;
+}
+
+	
+
+/*Add div css*/
+
+.add-wrapper{
+	display: block;
+	background-image: linear-gradient(#5aecc9, #54e7ca);
+}
+
+.add-img-wrapper{
+	float: left;
+	position: relative;
+	top: 125px;
+	left: 10px;
+}
+.add-content{
+	width: 65%;
+	padding-top: 17.491467%;
+	padding-bottom: 150px;
+	float: right;
+}
+
+
+/*Stats div css*/
+.stats-block{
+	width: 25%;
+	height: 340px;
+	text-align: center;	
+	float: left;
+	color: white;
+	/*border: 1px solid white;*/
+
+}	
+
+.stats-block img{
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+
+
+
+/*Team div css*/
+.team h2{
+	font-size: 40px;
+	font-weight: lighter;
+	padding-top: 76px;
+	padding-bottom: 34px;
+}
+
+.team >p{
+	max-width: 65.699658%;
+	padding-bottom: 39px;
+	margin-bottom: 61px;
+	text-align: center;
+}
+
+
+
+	/*About div css*/
+
+	.about-image{
+		width: 48.634812%;
+	/*height: 25.619128%;*/
+		float: left;
+
+	}
+
+	.about-description{
+		width: 44.965870%;
+		padding-top: 35px;
+		float: right;
+	}
+
+
+
+	/*Stat div css*/
+	.stats-block span{
+		display: block;
+		text-align: center;
+
+	}
+
+
+	/*Contact us div css*/
+	
+
+.contact-form{
+	padding-top: 65px;
+	padding-bottom: 90px;
+	width: 65.699658%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.first-name{
+	width: 48.051948%;
+	float: left;
+}
+.last-name{
+	width: 48.051948%;
+	float: right;
+}
+.message{
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+/*Client wrapper div css*/
+.client-wrapper{
+	display: block;
+}
+
+
+/*Address div css*/
+
+
+
+.address-box{
+	width: 370px;
+	height: 170px;
+	
+}
+.address span {	
+	padding-bottom: 25px;
+}
+
+
+/*Css for address div*/
+.footer-wrapper{
+	
+	height: 110px;
+
+}
+
+}	
+
+/*----------------------------------------------------------*/
+
+ 
+/* On screens that are 992px or greater, set the background color to blue */
+@media screen and (min-width: 1024px) {
+ 
+
+	.container-wrapper{
+		margin: 10px;
+	}
+	.container-max-width{
+ 		max-width: 73.5em;				/*max-width: 1172px; 74em*/
+ 		margin: 0 auto;
+ 	}
+ 	
+ 	.header ul{
+ 		float: right;
+ 	}
+
+
+    ul.navigation li{
+		float: left;
+	  
+    }
+
+
+	ul.navigation li a{	
+
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		display: inline-block;
+		
+	}
+
+
+    .nav-icon{
+    	display: none;
+    }
+   
+   	.main-button{
+ 	    width: 21.331058%;
+ 	}
+
+   /*CSS for banner div*/
+
+
+
+ /*CSS for Services div*/
+	.web-graphic{
+		width: 47.013665%;
+		float: left;
+	}
+
+
+	.prog-photo{
+		width: 48.757679%;
+		float: right;
+	}
+
+
+	.web-design{
+		width: 49.64972%;
+		float: left;
+	}
+
+	.graphic-design{
+		width: 48.275862%;
+		float: right;
+	}
+
+	.programming{
+		width: 48.275862%;
+		float: left;
+	}
+
+
+
+	.photography{
+		width: 42.64972%;
+		float: right;
+	}
+  	
+  	.services-container h4{
+  		font-size: 15px;
+  	}
+
+	.services-container p{
+		width: 100%;
+		border-bottom:none;
+
+	}
+
+/*FULLY RESPONSIVE*/
+   .mobile-images{
+    width: 46.075085%;
+    float: left;
+   }
+
+   .mobile-description{
+    width: 51.194539%;
+    float: right;
+   }
+
+  
+
+   /*NEWS LETTER*/
+   .about{
+    width: 100%;
+   }
+
+   .no-margin{
+    margin-right: 0px;
+   }
+
+.left-mobile{
+	width: 214px;
+	
+}
+.right-mobile{
+	width: 160px;
+}
+
+   /*Browser design*/
+
+.left-browser{
+	position: absolute;
+	width: 38.907849%;
+	bottom: 0;
+	margin-left: 8.532423%;
+	margin-bottom: -4px;
+	float: left;
+	display: block;
+}
+.right-browser{
+	position: absolute;
+	width: 38.907849%;
+	bottom: 0;
+	right: 0;
+	margin-right: 8.532423%;
+	margin-bottom: -4px;
+	padding-right: 8.532423%;
+	float: right;
+	display: block;
+}
+.middle-browser{
+	width: 53.498293%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -4px;
+	left: 24.744027%;
+	display: block;
+	/*height: 382px;*/
+}
+
+
+
+
+/*CSS for fully responsive div*/
+
+.fully-responsive{
+	padding-bottom: 67px;
+	padding-top: 67px;
+}
+.mobile-description{
+	padding-top: 11.945392%;
+	width: 51.154539%;
+}
+
+.mobile-description h2{
+	text-align: left;
+}
+
+.mobile-description p{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: lighter;
+	width: 100%;
+	padding-top: 4.0102389%;
+	padding-bottom: 5.204781%;
+}
+
+
+.mobile-images{
+	width: 46.075085%;
+	float: left;
+	/*position: relative;*/
+
+}
+
+
+.left-mobile{
+	position: relative;
+	left: 30.740740%;
+	z-index: 5;
+}
+.right-mobile{
+	position: relative;
+	left: 20.44444%;
+	bottom: 40px;
+	z-index: 0;
+}
+
+.order-me-now-btn{
+
+ 	font-family: font-family: 'Roboto', sans-serif;
+ 	font-size: 15px;
+ 	color: white;
+ 	text-transform: uppercase;
+ 	width: 43.859649%;
+	padding-top: 25px;
+ 	padding-bottom: 25px;
+
+ 	float: left;
+ 	border-radius: 7px;
+ 	background:url(../img/main-button.png) no-repeat;
+ 	background-size: 100%;
+ 	border: none;
+}
+
+
+
+/*CSS For Design you like*/
+
+.design-you-like h2{
+	font-size: 40px;
+}
+
+.design-you-like p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	text-align: center;
+	width: 65.699658%;
+	padding-top: 2.986348%;
+	padding-bottom: 2.986348%;
+	color: white;
+
+}
+
+
+.design-you-like ul{
+	/*width: 65.699658%;*/
+
+	padding-top: 6.655290%;
+	padding-right: 28.839590%;
+	padding-left: 29.862481%;
+
+}
+
+.design-you-like ul li{
+
+
+	
+	display: inline-block;		
+
+	padding-top: 6.655290%;
+	padding-bottom: 40px;
+	padding-left: 6.825938%;
+	
+	
+}
+
+.design-you-like ul li a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: black;
+}
+
+
+.design-you-like ul li a:hover{
+	color: white;
+}
+
+
+.design-box{
+  width: 31.56996587%;
+  height: 373px;
+  float: left;
+  margin-right: 2.5597269%;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+   .design-box img{
+   		width: 100%;
+   		height: 240px;
+   }
+
+   .design-box h3{
+   	padding-top: 20px;
+   }
+
+   .design-box p{
+   	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	text-align: center;
+	width: 57.837837%;
+	margin:0 auto;
+	color: black;
+
+   }
+
+
+   .arrow-down{
+   	display: block;
+   	margin: 0 auto;
+   	padding-top: 51px;
+   	padding-bottom: 70px;
+
+   }
+
+  .margin768{
+   	 margin-right: 0%; 
+   }
+
+   .no-margin768{
+   	margin-right: 2.5597269%;
+   }
+
+   .margin-right-non{
+   	margin-right: 0px;
+   }
+
+  /*CSS for Team*/
+.team-members{
+	max-width: 1172px;
+	margin:0 auto;
+}
+
+.team-member{
+	width: 22.037542%;
+	float: left;
+	margin-left: 2.559726%;
+	margin-right: 0;
+	/*border: 1px solid black;*/
+}
+.team-member img{
+	width: 100%;
+	height: auto;
+}
+
+.team-member p{
+	width: 90%;
+}
+
+
+
+/*About us div*/
+
+.about-image{
+	width: 48.634812%;
+	/*height: 25.619128%;*/
+	float: left;
+
+}
+
+.about-image img{
+	width: 100%;
+	height: 300px;
+	/*height: 25.619128%;*/
+	float: left;
+
+}
+.about-description{
+	width: 44.965870%;
+	padding-top: 35px;
+	float: right;
+}
+
+.about-description h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	font-weight: bold;
+	padding-left: 20px;
+	margin-bottom: 40px;
+
+}
+.about-description p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+	padding-bottom: 15px;
+	padding-right: 30px;
+}
+
+
+/*Add div css*/
+
+.add-img-wrapper{
+	float: left;
+	position: relative;
+	top: 125px;
+	left: 12.798634%;
+}
+.add-content{
+	width: 57.593856%;
+	padding-top: 17.491467%;
+	padding-bottom: 150px;
+	float: right;
+}
+
+
+
+}
