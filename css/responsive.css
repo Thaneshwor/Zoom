@@ -1,7 +1,5 @@
 @media screen and (min-width: 380px) {
-	.container-wrapper{
-		margin: 10px;
-	}
+	
 
 	.main-button{
 	 	font-size: 10px;
@@ -219,7 +217,7 @@
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
 	
 	.main-button{
 	 	
@@ -230,9 +228,7 @@
 
 
 	/*Header*/
-	.container-wrapper{
-		margin: 10px;
-	}
+
 	.container-max-width{
  		max-width: 73.5em;				/*max-width: 1172px; 74em*/
  		margin: 0 auto;
@@ -259,25 +255,20 @@
     .nav-icon{
     	display: none;
     }
-	/* Service Responsive*/
+	
 
 
 	/*CSS for banner*/
 	.banner h1{
-		font-family: 'Roboto', sans-serif;
-		font-weight: 30;
 		font-size: 60px;
 		text-align: center;
-		color: white;
-		margin-bottom: 4.5221843%;
+		margin-bottom: 6.5221843%;
 	}
 
 	/*Services*/
 
 
-   .services-container{
 
-   }
    .web-graphic{
    	 width: 100%;
    	 float: none;
@@ -415,7 +406,7 @@
 	 	display: block;
 	 	margin:0 auto;
 	 	border-radius: 7px;
-	 	background:url(../img/main-button.png) no-repeat;
+	 	background-image: linear-gradient(#ff6b54, #ff3958);
 	 	background-size: 100%;
 	 	border: none;
 	}
@@ -699,11 +690,9 @@
 @media screen and (min-width: 1024px) {
  
 
-	.container-wrapper{
-		margin: 10px;
-	}
+	
 	.container-max-width{
- 		max-width: 73.5em;				/*max-width: 1172px; 74em*/
+ 		max-width: 74em;				/*max-width: 1172px; 74em*/
  		margin: 0 auto;
  	}
  	
@@ -741,36 +730,36 @@
 
  /*CSS for Services div*/
 	.web-graphic{
-		width: 47.013665%;
+		width: 50%;
 		float: left;
 	}
 
 
 	.prog-photo{
-		width: 48.757679%;
+		width: 50%;
 		float: right;
 	}
 
 
 	.web-design{
-		width: 49.64972%;
+		width: 50%;
 		float: left;
 	}
 
 	.graphic-design{
-		width: 48.275862%;
+		width: 50%%;
 		float: right;
 	}
 
 	.programming{
-		width: 48.275862%;
+		width: 50%%;
 		float: left;
 	}
 
 
 
 	.photography{
-		width: 42.64972%;
+		width: 50%;
 		float: right;
 	}
   	
@@ -779,14 +768,14 @@
   	}
 
 	.services-container p{
-		width: 100%;
+		width: 80%;
 		border-bottom:none;
 
 	}
 
 /*FULLY RESPONSIVE*/
    .mobile-images{
-    width: 46.075085%;
+    width: 44.075085%;
     float: left;
    }
 
@@ -806,13 +795,13 @@
     margin-right: 0px;
    }
 
-.left-mobile{
-	width: 214px;
+  .left-mobile{
+   	width: 214px;
 	
-}
-.right-mobile{
-	width: 160px;
-}
+  }
+ .right-mobile{
+    width: 160px;
+  }
 
    /*Browser design*/
 
@@ -866,12 +855,11 @@
 
 .mobile-description p{
 
-	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	font-weight: lighter;
 	width: 100%;
-	padding-top: 4.0102389%;
-	padding-bottom: 5.204781%;
+	padding-top: 7.0102389%;
+
 }
 
 
@@ -884,32 +872,22 @@
 
 
 .left-mobile{
-	position: relative;
 	left: 30.740740%;
-	z-index: 5;
 }
+
+
 .right-mobile{
-	position: relative;
 	left: 20.44444%;
 	bottom: 40px;
-	z-index: 0;
 }
 
 .order-me-now-btn{
-
- 	font-family: font-family: 'Roboto', sans-serif;
  	font-size: 15px;
- 	color: white;
- 	text-transform: uppercase;
  	width: 43.859649%;
 	padding-top: 25px;
  	padding-bottom: 25px;
-
  	float: left;
- 	border-radius: 7px;
- 	background:url(../img/main-button.png) no-repeat;
- 	background-size: 100%;
- 	border: none;
+ 	background-image: linear-gradient(#ff6b54, #ff3958);	
 }
 
 
@@ -921,14 +899,9 @@
 }
 
 .design-you-like p{
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
 	text-align: center;
 	width: 65.699658%;
 	padding-top: 2.986348%;
-	padding-bottom: 2.986348%;
-	color: white;
-
 }
 
 
@@ -952,6 +925,8 @@
 	padding-left: 6.825938%;
 	
 	
+
+
 }
 
 .design-you-like ul li a{
@@ -964,6 +939,7 @@
 .design-you-like ul li a:hover{
 	color: white;
 }
+
 
 
 .design-box{
