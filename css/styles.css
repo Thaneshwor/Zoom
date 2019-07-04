@@ -2,7 +2,7 @@
  	background: url(../img/Hover.png) no-repeat;
  }  
 
- .main-button{
+ .common-button{
  	width: 21.331058%;
  	padding-top: 2.303754%;
  	padding-bottom: 2.815699%;
@@ -19,7 +19,7 @@
 
  }
 
- .main-button:hover { 
+ .common-button:hover { 
  	background-image: linear-gradient(#ff6000, #ff0038);
 
   }
@@ -307,7 +307,7 @@ ul.navigation li:first-child{
  	text-transform: uppercase;
  	display: block;
  	border-radius: 7px;
- 	background:url(../img/main-button.png) no-repeat;
+ 	background:url(../img/common-button.png) no-repeat;
  	background-size: 100%;
  	border: none;
 }
@@ -482,27 +482,7 @@ ul.navigation li:first-child{
 
 
 
-.name{
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-	display: block;
 
-	padding-top: 30px;
-	padding-bottom: 7px;
-	/*text-align: center;*/
-	/*margin:0 auto;*/
-}
-
-.title{
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-	font-weight: bold;
-	text-align: center;
-	display: block;
-	padding-bottom: 30px;
-}
 
 .team-member p{
 	max-width: 77.037037%;

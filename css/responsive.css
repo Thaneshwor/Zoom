@@ -1,11 +1,20 @@
 @media screen and (min-width: 380px) {
 	
+	.container-max-width{
+ 		max-width: 73.5em;				/*max-width: 1172px; 74em*/
+ 		margin: 0 auto;
+ 	}
+ 	
 
-	.main-button{
+	.common-button{
 	 	font-size: 10px;
 	 	width: 30%;
  	}	
 	/*Header*/
+
+	.logo-wrapper{
+		padding-left: 10px;
+	}
 	.nav-icon{
 	
 		display: block;
@@ -113,18 +122,45 @@
 .team-members {
 	text-align: center;
 }
-.team-member img{
-	width: 100%;
 
-	height: auto;
+
+.member-detail{
+	background-image: linear-gradient(#5defc9, #4cdfcc);
+	width: 100%;
+	margin: 0 auto;
 }
+
+
+
+.member-detail .name{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+
+	padding-top: 10px;
+	padding-bottom: 7px;
+	/*text-align: center;*/
+	/*margin:0 auto;*/
+}
+
 .team-member p{
+	font-size: 13px;
 	width: 90%;
 	height: auto;
 	text-align: center;
 }
 
-.title{
+
+.member-detail .title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	padding-bottom: 10px;
+
 	color: white;
 }
 
@@ -217,9 +253,21 @@
 
 }
 
+@media screen and (min-width:  500px){
+	
+.team-member{
+	width: 47%;
+	float: left;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	margin-bottom: 10px;
+	/*border: 1px solid black;*/
+}
+}
+
 @media screen and (min-width: 780px) {
 	
-	.main-button{
+	.common-button{
 	 	
 	 	font-size: 13px;
 	 	
@@ -229,11 +277,6 @@
 
 	/*Header*/
 
-	.container-max-width{
- 		max-width: 73.5em;				/*max-width: 1172px; 74em*/
- 		margin: 0 auto;
- 	}
- 	
  	.header ul{
  		float: right;
  	}
@@ -487,13 +530,35 @@
 
 
 
-.team-member{
-	width: 48%;
-	float: left;
-	margin-right: 2%;
-	margin-left: 0;
-	margin-bottom: 10px;
-	/*border: 1px solid black;*/
+
+
+.member-detail .name{
+
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 7px;
+
+}
+
+
+
+
+.member-detail .title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	padding-bottom: 30px;
+
+	color: white;
+}
+
+
+.member-detail{
+	background-image: linear-gradient(#5defc9, #4cdfcc);
+	width: 100%;
+	margin: 0 auto;
 }
 
 
@@ -695,6 +760,10 @@
  		max-width: 74em;				/*max-width: 1172px; 74em*/
  		margin: 0 auto;
  	}
+
+ 	.logo-wrapper{
+		padding-left: 10px;
+	}
  	
  	.header ul{
  		float: right;
@@ -713,14 +782,14 @@
 		font-size: 15px;
 		display: inline-block;
 		
-	}
+	}	
 
 
     .nav-icon{
     	display: none;
     }
    
-   	.main-button{
+   	.common-button{
  	    width: 21.331058%;
  	}
 
