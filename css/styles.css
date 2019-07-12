@@ -2,11 +2,11 @@
  	    font-family: 'Roboto', sans-serif;
  }
 
- .active_nav_link a{
+ .active_nav_link {
 
  	background-color: #5cefc9;
 	border-radius: 10px;
-	color: white;
+	color: white ;
  }  
 
 .need-service-button{
@@ -59,6 +59,7 @@ ul.navigation li{
 }*/
 ul.navigation li a{
 	padding: 15px 30px 13px 30px;
+	color: black;
 }
 
 ul.navigation a:hover{
@@ -546,7 +547,7 @@ ul.navigation li:first-child{
 .newsletter h2{
 	
 	font-size: 20px;
-	font-weight: lighter;
+	font-weight: 400;
 	text-align: center;
 	color: white;
 
@@ -595,6 +596,7 @@ ul.navigation li:first-child{
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 10px;
+	color: #3f4244;	
 }
 .about-description p{
 	
@@ -628,18 +630,20 @@ ul.navigation li:first-child{
 .add-content h2{
 	
 	font-size: 25px;
-	font-weight: lighter;
+	font-weight: 400;
 	padding-bottom: 15px;
+	text-transform: uppercase;
 	color: white;
+
 }
 
 .add-content span{
 	
 	font-size: 15px;
-	font-weight: lighter;
+	font-weight: 400;
 	display: block;
 	padding-bottom: 25px;
-	color: black;
+	color: #284644;
 }
 .add-content p{
 	
@@ -661,10 +665,11 @@ ul.navigation li:first-child{
 .client h2{
 
 	font-size: 40px;
-	font-weight: lighter;
+	font-weight: 400;
 	padding-top: 118px;
-	text-align: center;
 	padding-bottom: 35px;
+	text-align: center;
+	color: #3f4244;
 }
 .client > p{
 
@@ -701,7 +706,7 @@ ul.navigation li:first-child{
 .client-name{
 
 	font-size: 20px;
-	font-weight: lighter;
+	font-weight: 400;
 	padding-bottom: 15px;
 	display: block;
 	color: white;
@@ -709,7 +714,6 @@ ul.navigation li:first-child{
 .client-work{
 
 	font-size: 13px;
-	font-weight: lighter;
 	padding-bottom: 28px;
 	display: block;
 }
@@ -738,7 +742,7 @@ ul.navigation li:first-child{
 .contact-us h2{
 	
 	font-size: 40px;
-	font-weight: lighter;
+	font-weight: 400;
 	color: white;
 	text-align: center;
 	padding-bottom: 32px;
