@@ -1,41 +1,40 @@
- .active_nav_link{
- 	background: url(../img/Hover.png) no-repeat;
+ body{
+ 	    font-family: 'Roboto', sans-serif;
+ }
+
+ .active_nav_link a{
+
+ 	background-color: #5cefc9;
+	border-radius: 10px;
+	color: white;
  }  
 
+.need-service-button{
+  font-size: 20px;
+  font-weight: bold;
+ }
+
  .common-button{
- 	width: 21.331058%;
- 	padding-top: 2.303754%;
- 	padding-bottom: 2.815699%;
- 	font-family: font-family: 'Roboto', sans-serif;
- 	font-size: 15px;
+ 	font-family: 'Open Sans', sans-serif; 
+ 	font-weight: lighter;
  	color: white;
  	text-transform: uppercase;
  	border-radius: 7px;
- 	background-image: linear-gradient(#ff6b54, #ff3958);
-
+ 	background-image: linear-gradient(#ff6b54, #ff3a58);
  	background-size: 100%;
  	border: none;
  	cursor: pointer;
 
  }
 
+
  .common-button:hover { 
- 	background-image: linear-gradient(#ff6000, #ff0038);
+
+ 	background-image: linear-gradient(#ff6000, #ff0000);
 
   }
  
-.roboto-15 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-	line-height: 0;
-	text-align: center;
-}
 
-.roboto-13{
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-	text-align: center;
-}
 
 
 /*HEADER PART CSS*/
@@ -45,8 +44,8 @@
 }
 
 .header-container{
-	padding-top: 22px;
-	padding-bottom: 20px;	
+	padding-top: 30px;
+	padding-bottom: 0px;	
 }
 
 .logo-wrapper{
@@ -54,27 +53,18 @@
 	padding-top: 10px;
 	padding-bottom: 12px;
 }
-
+/*
 ul.navigation li{
-
-	
-	padding-top: 2.5%; 
-	padding-bottom: 2.5%;
-	border-radius: 7px;
-	text-align: center;
-
-}
-
+	color: #656869;
+}*/
 ul.navigation li a{
-	padding-left: 30px;
-	padding-right: 30px;
-	color: #3f4244;
+	padding: 15px 30px 13px 30px;
 }
 
-ul.navigation li:hover{
-	background: url(../img/Hover.png) no-repeat;
-	background-position: center center;
-
+ul.navigation a:hover{
+	background-color: #5cefc9;
+	border-radius: 10px;
+	color: white;
 
 }
 
@@ -96,8 +86,8 @@ ul.navigation li:first-child{
 }
 
 .banner-container{
-	padding-top: 22.525597%; /* removing the defaule 20 px at top of h1   23.037542%;*/
-	padding-bottom: 21.331058%;
+	padding-top: 20.525597%; /* removing the defaule 20 px at top of h1   23.037542%;*/
+	padding-bottom: 18.60%;
 }
 
 .banner h1{
@@ -124,15 +114,15 @@ ul.navigation li:first-child{
 /*CSS For Services*/
 
 .services-container{
-	padding-top: 7.508532%;
-	padding-bottom: 3.252559%;
+	padding-top: 80px;
+	padding-bottom: 45px;
 }
 
 
 .services{
-	padding-left: 1.621160%;
-	padding-right: 1.450051%;
-	padding-bottom: 5.399311%;		/*7.423208-0.682593 to decrease 8 px */ 
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 83px;		/*7.423208-0.682593 to decrease 8 px */ 
 }
 
 .service-icon{
@@ -141,26 +131,24 @@ ul.navigation li:first-child{
 
 
 .services-container h4{
-	font-family: 'Roboto', sans-serif;
-	font-size: 17px;
 
-	text-align: center;
-
+	font-size: 13px;
+	font-weight: lighter;
 	padding-top: 20px;
 	padding-bottom: 20px;
-
+	text-transform: uppercase;
+	color: #656869;
 }
 
 
 .services-container p{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 15px;
 	color: #929ba0;
 	width: 80%;
 	margin:0 auto 15px;
-	padding-bottom: 25px;
 	text-align: center;
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 
 
 }
@@ -187,6 +175,9 @@ ul.navigation li:first-child{
 }
 
 .browser-design-wrapper h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
 	text-align: center;	
 	color: white;
 	padding-bottom: 2.986348%;
@@ -194,7 +185,6 @@ ul.navigation li:first-child{
 		
 .browser-design-wrapper p{
 	width: 66.552901%;
-	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	font-weight: lighter;	
 	text-align: center;
@@ -205,38 +195,17 @@ ul.navigation li:first-child{
 
 .brower-image-wrapper{
 	position: relative;
+	max-width: 972px;
 	height: 385px;
-	
+	margin: 0 auto;
 }
 
-.left-browser{
-	position: absolute;
-	width: 38.907849%;
-	bottom: 0;
-	margin-left: 8.532423%;
-	margin-bottom: -4px;
-	float: left;
+.brower-image-wrapper img{
+	width: 100%;
 }
-.right-browser{
-	position: absolute;
-	width: 38.907849%;
-	bottom: 0;
-	right: 0;
-	margin-right: 8.532423%;
-	margin-bottom: -4px;
-	padding-right: 8.532423%;
-	float: right;
+.browser-image{
+	margin: 0 auto;
 }
-.middle-browser{
-	width: 53.498293%;
-	position: absolute;
-	bottom: 0;
-	margin-bottom: -4px;
-	left: 24.744027%;
-	/*height: 382px;*/
-}
-
-
 
 
 /*CSS for fully responsive div*/
@@ -253,15 +222,14 @@ ul.navigation li:first-child{
 }
 
 .mobile-description h2{
-	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
-	font-weight: bold;
+	font-weight: 400;
 	text-align: center;
+	color: #3f4244;
 }
 
 .mobile-description p{
 
-	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	font-weight: lighter;
 	color: #929ba0;
@@ -301,13 +269,12 @@ ul.navigation li:first-child{
 	margin: 0 auto;
  	padding-top: 2.303754%;
  	padding-bottom: 2.815699%;
- 	font-family: font-family: 'Roboto', sans-serif;
  	font-size: 13px;
  	color: white;
  	text-transform: uppercase;
  	display: block;
  	border-radius: 7px;
- 	background:url(../img/common-button.png) no-repeat;
+ 	background-image: linear-gradient(#ff6b54, #ff3958);
  	background-size: 100%;
  	border: none;
 }
@@ -318,46 +285,40 @@ ul.navigation li:first-child{
 
 
 .design-you-like-wrapper{
-	background-image: linear-gradient(#5cefc9, #4fe1cb);
-	
+	background-image: linear-gradient(#5cefc9, #4fe1cb);	
 }
+
 .design-you-like h2{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 30px;
 	font-weight: lighter;
-	line-height: 0;
 	text-align: center;
 	padding-top: 7.996587%;
 	color: white;
 }
 .design-you-like h3{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 15px;
 	line-height: 0;
 	text-align: center;
 	padding-top: 6.996587%;
-	color: black;
+	color: #4c4f50;
 }
 
 
 .design-you-like p{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 13px;
 	width: 80%;
-	padding-top: 2.986348%;
-	padding-bottom: 2.986348%;
-	color: white;
 	text-align: justify;
+	color: white;
 }
 
 
 .design-you-like ul li{
 
-
-	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	display: inline-block;		
-
 	padding-top: 6.655290%;
 	padding-bottom: 40px;
 	padding-left: 6.825938%;
@@ -385,24 +346,30 @@ ul.navigation li:first-child{
     margin-bottom: 0px;
     background-color: white;
 
+
 }
 
    .design-box img{
    		width: 100%;
-   		height: 240px;
+   		/*height: 240px;*/
    }
 
    .design-box h3{
-   	padding-top: 20px;
+   	font-family: 'Roboto', sans-serif;
+	  font-size: 15px;
+   	text-align: center;
+   	padding-top: 30px;
+   	text-transform: uppercase;
    }
 
    .design-box p{
-	   	font-family: 'Roboto', sans-serif;
+
 		font-size: 13px;
 		text-align: center;
-		width: 57.837837%;
+		/*width: 57.837837%;*/
 		margin:0 auto;
-		color: black;
+		padding-top: 25px;
+		color: #848889;
 
    }
 
@@ -425,12 +392,11 @@ ul.navigation li:first-child{
 
 .stats-wrapper{
 	
-	background-color: #233537;
+		background-color: #233537	  		
 }
 
 .stats-block{
 	width: 100%;
-	height: 340px;
 	text-align: center;	
 	float: none;
 	color: white;
@@ -440,12 +406,13 @@ ul.navigation li:first-child{
 }
 
 .stat-desc{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 13px;
+	text-transform: uppercase;
 }
 
 .numbers{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 40px;
 	font-weight: lighter;
 	padding-bottom: 20px;
@@ -462,19 +429,21 @@ ul.navigation li:first-child{
 	padding-bottom: 30px;
 }
 .team h2{
-	font-family: 'Roboto', sans-serif;
-	font-weight: lighter;
 	font-size: 30px;
+	font-weight: 400;
 	padding-top: 30px;
 	padding-bottom: 34px;
+	color: #3f4244;
 }
 .team p{
-	font-family: 'Roboto', sans-serif;
+	
+	font-size: 13px;
 	font-weight: lighter;
 	color: #404d4d;
 	max-width: 80%;
 	padding-bottom: 39px;
 	margin-bottom: 61px;
+	color: #929ba0;
 	text-align: justify;
 }
 
@@ -486,7 +455,6 @@ ul.navigation li:first-child{
 
 .team-member p{
 	max-width: 77.037037%;
-	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	text-align: center;
 	margin:0 auto;
@@ -494,13 +462,15 @@ ul.navigation li:first-child{
 	padding-bottom: 26px;
 	/*font-weight: lighter;*/
 }
-
+.team-member-image{
+	width: 23.037542%;
+	height: 17.320819%;
+}
 .member-detail{
 	background-image: linear-gradient(#5defc9, #4cdfcc);
 }
 
 .member-detail p{
-	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	width: 90%;
 }
@@ -514,7 +484,6 @@ ul.navigation li:first-child{
 }
 
 .quote-container{
-	font-family: 'Roboto', sans-serif;
 	padding-top: 96px;
 	padding-bottom: 101px;
 	color:white;
@@ -576,7 +545,7 @@ ul.navigation li:first-child{
 }
 
 .newsletter h2{
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 20px;
 	font-weight: lighter;
 	text-align: center;
@@ -586,7 +555,7 @@ ul.navigation li:first-child{
 }
 .newsletter a{
 
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 13px;
 	display: inline-block;
 	text-align: center;
@@ -623,13 +592,13 @@ ul.navigation li:first-child{
 }
 
 .about-description h2{
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 10px;
 }
 .about-description p{
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 13px;
 	font-weight: lighter;
 	color: white;
@@ -658,7 +627,7 @@ ul.navigation li:first-child{
 }
 
 .add-content h2{
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 25px;
 	font-weight: lighter;
 	padding-bottom: 15px;
@@ -666,7 +635,7 @@ ul.navigation li:first-child{
 }
 
 .add-content span{
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 15px;
 	font-weight: lighter;
 	display: block;
@@ -674,7 +643,7 @@ ul.navigation li:first-child{
 	color: black;
 }
 .add-content p{
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 13px;
 	font-weight: lighter;
 	color: white;
@@ -691,7 +660,7 @@ ul.navigation li:first-child{
 }
 
 .client h2{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 40px;
 	font-weight: lighter;
 	padding-top: 118px;
@@ -699,7 +668,7 @@ ul.navigation li:first-child{
 	padding-bottom: 35px;
 }
 .client > p{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 13px;
 	font-weight: lighter;
 	text-align: center;
@@ -731,7 +700,7 @@ ul.navigation li:first-child{
 }
 
 .client-name{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 20px;
 	font-weight: lighter;
 	padding-bottom: 15px;
@@ -739,14 +708,14 @@ ul.navigation li:first-child{
 	color: white;
 }
 .client-work{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 13px;
 	font-weight: lighter;
 	padding-bottom: 28px;
 	display: block;
 }
 .clients p{
-	font-family: 'Roboto', sans-serif;
+
 	font-size: 13px;
 	font-weight: lighter;
 	word-break: all;
@@ -768,7 +737,7 @@ ul.navigation li:first-child{
 	margin: 0 auto;
 }
 .contact-us h2{
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 40px;
 	font-weight: lighter;
 	color: white;
@@ -776,7 +745,7 @@ ul.navigation li:first-child{
 	padding-bottom: 32px;
 }
 .contact-us p{
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 13px;
 	text-align: center;
 	width: 64.846416%;
