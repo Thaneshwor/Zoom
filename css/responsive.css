@@ -105,6 +105,7 @@
 	font-size: 40px;
 }
 
+
 .team-members {
 	text-align: center;
 }
@@ -1020,10 +1021,6 @@
    }
 
   /*CSS for Team*/
-.team-members{
-	max-width: 1172px;
-	margin:0 auto;
-}
 
 .team-member{
 	width: 22.037542%;
@@ -1031,10 +1028,6 @@
 	margin-left: 2.559726%;
 	margin-right: 0;
 	/*border: 1px solid black;*/
-}
-.team-member img{
-	width: 100%;
-	height: auto;
 }
 
 .team-member p{
