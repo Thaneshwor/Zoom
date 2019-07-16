@@ -73,7 +73,10 @@
 .about{
   padding-top: 0px;
 	padding-bottom: 94px;
-  background-image: linear-gradient(#ff5a55, #ff3558);
+ 	background-color: white;
+}
+.about p {
+	color: 	#778899;
 }
 
 
@@ -128,6 +131,7 @@
 
 	padding-top: 10px;
 	padding-bottom: 7px;
+	color: #435956;
 	/*text-align: center;*/
 	/*margin:0 auto;*/
 }
@@ -137,6 +141,7 @@
 	width: 90%;
 	height: auto;
 	text-align: center;
+	color: #435956;
 }
 
 
